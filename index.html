@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+    <meta name="description" content="esta es la practica de mi pagina web">
+    <meta name="keywords" content="3B,fisico-matematico">
+    <meta name="author" content="Victor Ariel Espejel Ramirez">
+    <link rel="shortcut icon" href="Practica 3/Img/bola.webp" type="image/x-icon">
+   <style>
+    body { /* Estilos globales: Fondo con patrón de puntos y tipografía */
+        background-color: #FFDE00; 
+        background-image: radial-gradient(#ffeb5e 20%, transparent 20%),
+                          radial-gradient(#ffeb5e 20%, transparent 20%);
+        background-size: 30px 30px; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+    }
+
+    .main-container { /* Contenedor principal que centra y agrupa el contenido */
+        max-width: 800px;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        border: 4px solid #3B4CCA; 
+    }
+
+    h1 { /* Títulos: Colores azul y rojo tipo Pokebola */
+        color: #3B4CCA;
+        font-size: 3rem;
+        text-shadow: 2px 2px #FF0000;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        color: #EE1515; 
+        border-bottom: 2px solid #EE1515;
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+ol > li { /* Estilo de las listas de efectividades (Tarjetas) */
+    background: #f0f0f0;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 8px solid #3B4CCA; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    list-style-position: inside;
+    font-weight: bold;
+}
+
+ol li ul {
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    font-weight: normal; /
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    img {
+        border: 5px solid #3B4CCA;
+        border-radius: 15px;
+        transition: transform 0.3s; 
+        display: block;
+        margin: 20px auto;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    img:hover { /* Efecto Hover en las imágenes: Crecen y rotan un poco */
+        transform: scale(1.1) rotate(2deg);
+    }
+
+    
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        color: white;
+        background-color: #3B4CCA;
+        padding: 12px 25px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        background-color: #EE1515;
+        transform: translateY(-3px);
+    }
+    
+    .navbar {
+    background-color: #3B4CCA; 
+    padding: 15px;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid #EE1515; 
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+    background-color: transparent; 
+}
+
+.navbar a:hover { /* Efecto Hover: Cambio de color en los enlaces del menú */
+    color: #FFDE00;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+}
+
+
+html { /* Suavizado del movimiento al usar los enlaces del menú */
+    scroll-behavior: smooth;
+}
+
+h2 {
+    scroll-margin-top: 80px; 
+}
+</style>
+</head>
+<body>
+<img src="img/bola.webp" height="80" width="80" alt="">
+    <nav class="navbar">
+    <a href="#Inicio">Inicio</a>
+    <a href="#Descripcion">Descripción</a>
+    <a href="#Descripcion General del Juego">Descripcion General del Juego</a>
+    <a href="#juegos">Juegos</a>
+    <a href="#Mecanica principal">Mecanica principal</a>
+    <a href="#Guia de Efectividades">Guia de Efectividades</a>
+    <a href="#Videos">Videos</a>
+    <a href="#Hipervinculo">Hipervinculos</a>
+</nav>
+    <h1 id="Inicio">Pokemon</h1>
+    <h2 id="Descripcion">Descripcion</h2>
+    <p>Bienvenidos al mundo de los Pokémon, criaturas increíbles con poderes elementales que habitan en todas las regiones, desde Kanto hasta Paldea.Pokémon es una saga de videojuegos de rol (JRPG) creada en 1996 por Game Freak y publicada por Nintendo. Su objetivo principal es capturar, entrenar y combatir con criaturas llamadas “Pokémon”, convirtiéndose en una de las franquicias más populares del mundo.</p>
+    <img src="img/pokemon.gif" class="gif" width="200" height="150">
+    <h2 id="Descripcion General del Juego">Descripcion General del Juego</h2>
+    <ul>
+        <li>Género: Videojuegos de rol (JRPG).</li>
+        <li>Creador: Satoshi Tajiri y Ken Sugimori.</li>
+        <li>Desarrollador principal: Game Freak.</li>
+        <li>Distribuidor: Nintendo y The Pokémon Company.</li>
+        <li>Primer lanzamiento: Pokémon Rojo y Verde (1996, Japón).</li>
+        <li>Plataformas: Desde Game Boy hasta Nintendo Switch, además de móviles (iOS y Android).</li>
+        <li>Modos de juego: Un jugador y multijugador.</li>
+
+    </ul>
+    <h2 id="juegos">Juegos</h2>
+    <p>Esta saga de juegos propone explorar mundos, capturar y entrenar criaturas y enfrentarte en batallas estratégicas. Combina aventura, colección y juego social mediante intercambios y combates en línea.</p>
+    <p>Cada entrega esta ambientada en regiones diferentes donde cada una cuenta con una variedad de pokemones pertenecientes de ahi, aqui mismo se encuentra todas las entregas que han sido lanzados y sus regiones:</p>
+    <ol>
+        <li>Gen 1 — Rojo/Azul/Verde/Amarillo - **Kanto** ⛰️ (151) - 27 feb 1996</li>
+        <li>Gen 2 — Oro/Plata/Cristal - **Johto** 🏯 (100) - 21 nov 1999</li>
+        <li>Gen 3 — Rubí/Zafiro/Esmeralda - **Hoenn** 🌊 (135) - 21 nov 2002</li>
+        <li>Gen 4 — Diamante/Perla/Platino - **Sinnoh** ❄️ (107) - 28 sept 2006</li>
+        <li>Gen 5 — Negro/Blanco / Negro 2/Blanco 2 - **Unova** 🏙️ (156) - 18 sept 2010</li>
+        <li>Gen 6 — X/Y - **Kalos** 🗼 (72) - 12 oct 2013</li>
+        <li>Gen 7 — Sol/Luna / Ultrasol/Ultraluna - **Alola** 🏝️ (88) - 18 nov 2016</li>
+        <li>Gen 8 — Espada/Escudo - **Galar** 🏰 (89) - 15 nov 2019</li>
+        <li>Gen 9 — Escarlata/Violeta - **Paldea** 🎓 (103) - 18 nov 2022</li>
+    </ol>
+    <h2 id="Mecanica principal">Mecanica principal</h2>
+    <ul>
+        <li>Captura de Pokémon: Los jugadores exploran diferentes regiones para atrapar criaturas con Poké Balls.</li>
+        <li>Entrenamiento y evolución: Los Pokémon suben de nivel y pueden evolucionar en formas más poderosas.</li>
+        <li>Combates por turnos: Se enfrentan a otros entrenadores o Pokémon salvajes usando ataques y estrategias.</li>
+        <li>Colección y exploración: El lema “¡Atrapalos a Todos!” refleja el objetivo de completar la Pokédex con todas las especies disponibles.</li>
+        <li>Interacción social: Intercambio y batallas entre jugadores, tanto local como en línea.</li>
+    </ul>
+    <h2 id="Guia de Efectividades">Guía de Efectividades </h2>
+    <p>A continuación se muestran los 5 tipos principales y sus interacciones en combate:</p>
+    
+    <ol>
+        <li><strong>Tipo Fuego 🔥</strong>
+            <ul>
+                <li><strong>Ventaja contra:</strong> Planta 🌿, Hielo ❄️, Bicho 🐛, Acero ⚙️</li>
+                <li><strong>Debilidad ante:</strong> Agua 💧, Tierra ⏳, Roca 🪨</li>
+            </ul>
+        </li>
+
+        <li><strong>Tipo Agua 💧</strong>
+            <ul>
+                <li><strong>Ventaja contra:</strong> Fuego 🔥, Tierra ⏳, Roca 🪨</li>
+                <li><strong>Debilidad ante:</strong> Planta 🌿, Eléctrico ⚡</li>
+            </ul>
+        </li>
+
+        <li><strong>Tipo Planta 🌿</strong>
+            <ul>
+                <li><strong>Ventaja contra:</strong> Agua 💧, Tierra ⏳, Roca 🪨</li>
+                <li><strong>Debilidad ante:</strong> Fuego 🔥, Hielo ❄️, Veneno ☠️, Volador 🕊️, Bicho 🐛</li>
+            </ul>
+        </li>
+
+        <li><strong>Tipo Eléctrico ⚡</strong>
+            <ul>
+                <li><strong>Ventaja contra:</strong> Agua 💧, Volador 🕊️</li>
+                <li><strong>Debilidad ante:</strong> Tierra ⏳ (Inmune al daño eléctrico)</li>
+            </ul>
+        </li>
+
+        <li><strong>Tipo Dragón 🐉</strong>
+            <ul>
+                <li><strong>Ventaja contra:</strong> Dragón 🐉</li>
+                <li><strong>Debilidad ante:</strong> Hielo ❄️, Dragón 🐉, Hada ✨</li>
+            </ul>
+        </li>
+    </ol>
+    
+<h2 id="Videos">Videos</h2>
+    <video src="video/Red Battle.mp4" controls width="250" height="250"></video>
+    <iframe width="300" height="200" 
+        src="https://www.youtube.com/watch?v=6eqhO98ysIo" 
+        frameborder="0" allowfullscreen>
+</iframe>
+    
+<h2 id="Hipervinculo">Hipervinculo</h2>
+    <a href="https://www.pokemon.com/es">Sitio Web Oficial</a>
+    <a href="Practica 3/index.html">Estructura del HTML</a>
+    
+<img src="img/pokemon_2.gif" class="gif" width="200" height="150">
+</body>
